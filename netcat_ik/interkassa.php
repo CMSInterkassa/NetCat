@@ -147,11 +147,9 @@ class nc_payment_system_interkassa extends nc_payment_system {
 
         }else{
 
-
             $this->wrlog('params didnt match');
             die('params didnt match');
         }
-
 
     }
 
